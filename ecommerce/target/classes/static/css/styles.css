@@ -1,0 +1,39 @@
+/* styles.css */
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  flex-grow: 1;
+  height: 60px; /* Increase the height as desired */
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  padding: 16px;
+  font-size: 16px;
+  outline: none; /* Remove the outline */
+}
+
+.search-button {
+   /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: var(--dark);
+}
+
+.username {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
